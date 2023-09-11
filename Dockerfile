@@ -11,6 +11,6 @@ RUN pip install gunicorn
 WORKDIR /app
 COPY chatgpt4.py .
 
-EXPOSE 8080
+EXPOSE 80
 ##EXPOST $PORT
 CMD [ "python", "./chatgpt4.py"]
