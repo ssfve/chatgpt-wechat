@@ -53,5 +53,5 @@ def new_user (message):
 robot.config['HOST'] = '0.0.0.0'
 ##robot.config['HOST']='34.72.162.21'
 ##robot.config['HOST']='127.0.0.1'
-robot.config['PORT'] = 80
+robot.config['PORT'] = 8080
 robot.run()
