@@ -3,7 +3,7 @@ import werobot
 import openai
 import threading
 
-openai.api_key="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"
+openai.api_key="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"
 app_id_str = "wx7b2e7378fb505046"
 app_secret_str = "a59032da3bc54b9b46e66a08fdc12e3c"
 # client = werobot.Client(appid, app_secret)
